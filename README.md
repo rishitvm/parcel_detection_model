@@ -1,4 +1,3 @@
-## Parcel Detection Model
 # Overview
 This repository contains a parcel detection model designed to identify and locate parcels in images using advanced computer vision techniques. The model is trained to enhance accuracy and efficiency in parcel detection applications.
 
