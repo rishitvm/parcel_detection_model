@@ -25,5 +25,5 @@ class DetectionPredictor(BasePredictor):
             results.append(Results(orig_img, path=img_path, names=self.model.names, boxes=pred))
         return results
 
-model=YOLO("C:\Rishit\Projects\HX Club - Parcel Detection\best.pt")
+model=YOLO("Add path where best.pt is located")
 model.predict(source="0", show=True, conf=0.5)
